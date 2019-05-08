@@ -4,16 +4,12 @@
 <head>
 </head>
 <body>
-<div class="warp">
-    <div class="systemName">
-        <data:DataTag  id="systemName"/>
-    </div>
-    <div class="centre">
+<div>
+    <div>
         <form action="user/main.action" method="post">
-            <input type="text" name="userName" class="centre_input" placeholder="请输入账号"/>
-            <input type="password" id="password" name="password" class="centre_input" placeholder="请输入密码"/>
-            <div><button class="lgoin_btn" type="submit">登录</button></div>
-            <!-- <a href="#">忘记密码？</a> -->
+            <input type="text" placeholder="请输入账号"/>
+            <input type="password" placeholder="请输入密码"/>
+            <div><button type="submit">登录</button></div>
         </form>
     </div>
 </div>
